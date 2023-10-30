@@ -36,7 +36,15 @@ To test your app, you have a few options. If you have a smart device, I would re
 
 Note that we are writing code in JavaScript for React Native; if you begin writing code in Objective-C, Swift, Java, or Kotlin you are likely doing something *very* wrong!
 
-### Important Note
+If you wish to avoid hardcoding your Badger ID, you may set an environment variable `EXPO_PUBLIC_CS571_BADGER_ID` with your `bid_...`. This may require a restart! Then, to get your Badger ID, you may...
+
+```js
+import CS571 from '@cs571/mobile-client'
+// ...
+CS571.getBadgerId(); // returns BID
+```
+
+### Important Notes
 In this assignment, you may **not** hardcode the data of any items, such as their name. e.g. hardcoding "cupcake", "donut", "pie", or "cake" is prohibited!
 
 ### 1. Display Baked Goods
