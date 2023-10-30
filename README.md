@@ -101,5 +101,7 @@ In addition to your code, **you will also need to submit a video recording of yo
 
 #### Tasks 
  - Navigate between **all** baked good items.
+ - Add some items to your basket to enable the "place order" button.
+ - Remove all items from your basket to disable the "place order" button.
  - Submit an order with some baked goods.
  - Submit an order with the maximum number of atleast one baked good.
