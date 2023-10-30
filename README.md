@@ -83,7 +83,7 @@ The total cost of the items in the users' basket should be shown at the bottom o
 
 The user should be able to "submit" their order by pressing a "place order" button. **This button should be disabled if there are no items in their basket.**
 
-Upon submitting an order, a message should be displayed that says "Order Confirmed! Your order contains NUM_ITEMS items and costs $PRICE!" Be sure to display both the number of items sold and the total price. After, clear their basket.
+Upon submitting an order, a message should be displayed that says "Order Confirmed! Your order contains NUM_ITEMS items and costs $PRICE!" Be sure to display both the number of items sold and the total price. After, clear their basket and return to the first item.
 
 **Note:** We aren't really "submitting" anything to the API, this should simply trigger an `Alert`.
 
