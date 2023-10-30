@@ -49,9 +49,13 @@ Note that there are two different types of "cupcake", you should use its `id` as
 
 Do **NOT** use a `ScrollView`. We will paginate the baked goods by creating "previous" and "next" buttons in Step 2.
 
+![](_figures/step1.png)
+
 ### 2. Navigate Between Baked Goods
 
 Instead of showing all baked goods on the same screen, add "Previous" and "Next" buttons to allow the user to navigate between baked goods. The "previous" button should be disabled when viewing the first baked good, and the "next" button should be disabled when viewing the last baked good.
+
+![](_figures/step2.png)
 
 ### 3. Add and Remove from Basket
 
@@ -59,9 +63,13 @@ Allow the user to add and remove items from their basket via "+" and "-" buttons
 
 I'd recommend creating a state variable in `BadgerBakery.jsx` that tracks the number of each item ordered and passing this down through props or a context to `BadgerBakedGood.jsx`
 
+![](_figures/step3.png)
+
 ### 4. Show Order Total
 
 The total cost of the items in the users' basket should be shown at the bottom of the screen displayed in dollars to the nearest hundredth.
+
+![](_figures/step4.png)
 
 ### 5. Submit Order
 
@@ -70,6 +78,8 @@ The user should be able to "submit" their order by pressing a "place order" butt
 Upon submitting an order, a message should be displayed that says "Order Confirmed! Your order contains NUM_ITEMS items and costs $PRICE!" Be sure to display both the number of items sold and the total price. After, clear their basket.
 
 **Note:** We aren't really "submitting" anything to the API, this should simply trigger an `Alert`.
+
+![](_figures/step5.png)
 
 ### Other Notes
  - You may **NOT** assume that each bakery item's `name` is unique -- only its `id`. 
